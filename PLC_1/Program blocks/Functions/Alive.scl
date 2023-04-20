@@ -1,0 +1,12 @@
+﻿FUNCTION "Alive" : Void
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_IN_OUT 
+      aliveInt : UDInt;
+   END_VAR
+
+
+BEGIN
+	#aliveInt := #aliveInt + 1;
+END_FUNCTION
+
