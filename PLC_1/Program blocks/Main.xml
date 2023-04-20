@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2023-04-20T09:45:37.9289986Z</Created>
+    <Created>2023-04-20T09:56:27.9442364Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -51,8 +51,17 @@
       </Comment>
     </Member>
   </Section>
-  <Section Name="Temp" />
-  <Section Name="Constant" />
+  <Section Name="Temp">
+    <Member Name="temperature" Datatype="Real" />
+  </Section>
+  <Section Name="Constant">
+    <Member Name="temperatureMin" Datatype="Real" Accessibility="Public">
+      <StartValue>0.0</StartValue>
+    </Member>
+    <Member Name="temperatureMax" Datatype="Real" Accessibility="Public">
+      <StartValue>100.0</StartValue>
+    </Member>
+  </Section>
 </Sections></Interface>
       <IsIECCheckEnabled>false</IsIECCheckEnabled>
       <MemoryLayout>Optimized</MemoryLayout>
@@ -75,7 +84,56 @@
       </MultilingualText>
       <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
         <AttributeList>
-          <NetworkSource />
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v4">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="AIW_64" />
+      </Symbol>
+    </Access>
+    <Access Scope="LocalConstant" UId="22">
+      <Constant Name="temperatureMin" />
+    </Access>
+    <Access Scope="LocalConstant" UId="23">
+      <Constant Name="temperatureMax" />
+    </Access>
+    <Access Scope="LocalVariable" UId="24">
+      <Symbol>
+        <Component Name="temperature" />
+      </Symbol>
+    </Access>
+    <Call UId="25">
+      <CallInfo Name="FC_NormScaleAnalogInput" BlockType="FC">
+        <Parameter Name="AnalogInput" Section="Input" Type="Int" />
+        <Parameter Name="minScaledValue" Section="Input" Type="Real" />
+        <Parameter Name="maxScaledValue" Section="Input" Type="Real" />
+        <Parameter Name="AnalogInputReal" Section="Output" Type="Real" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="26">
+      <Powerrail />
+      <NameCon UId="25" Name="en" />
+    </Wire>
+    <Wire UId="27">
+      <IdentCon UId="21" />
+      <NameCon UId="25" Name="AnalogInput" />
+    </Wire>
+    <Wire UId="28">
+      <IdentCon UId="22" />
+      <NameCon UId="25" Name="minScaledValue" />
+    </Wire>
+    <Wire UId="29">
+      <IdentCon UId="23" />
+      <NameCon UId="25" Name="maxScaledValue" />
+    </Wire>
+    <Wire UId="30">
+      <NameCon UId="25" Name="AnalogInputReal" />
+      <IdentCon UId="24" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
