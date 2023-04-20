@@ -6,7 +6,7 @@ Vejledning til opsætning af versionsstyring med GitHub med værktøjerne Automa
 - Åben TIA Portal v17 og gå til **Options** - **Settings**
 - Naviger til **Version control interface** - **Compare** og tilgå **<Add new..**
 - Skriv navn - eksempelvis AC Tool 
-- Indsæt stien til Automation Compare Tool - eksempelvis * * "C:\Program Files\Siemens Automation\SIMATIC Automation Compare Tool\ACTool.exe"* *
+- Indsæt stien til Automation Compare Tool - eksempelvis *"C:\Program Files\Siemens Automation\SIMATIC Automation Compare Tool\ACTool.exe"*
 
 
 ## Links
