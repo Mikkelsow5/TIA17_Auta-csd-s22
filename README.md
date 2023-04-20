@@ -13,7 +13,7 @@ Vejledning til opsætning af versionsstyring med GitHub med værktøjerne Automa
 - Klik **Add** og luk **Settings**
 - Opsæt Hardware eller importer Archive https://github.com/MigaUCN/TIA17_Auta-csd-s22/blob/main/UCN%20s7-1214cAC_DC_RLY.zap17
 - Tilføj et arbejdsområde til synkronisering ved at klikke **Add new workspace** under **Version control interface**
-- Klick **Configure workspace**, indsæt stien til det *Cloned* repository under **Workspace path** og klik ok
+- Klick **Configure workspace**, indsæt stien til det *Cloned* repository under **Workspace path** og klik *OK*
 
 ## Links
 **SIMATIC Automation Compare Tool** https://support.industry.siemens.com/cs/document/109797235/simatic-automation-compare-tool-?dti=0&lc=en-DO
