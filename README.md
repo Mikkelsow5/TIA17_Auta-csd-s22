@@ -7,7 +7,8 @@ Vejledning til opsætning af versionsstyring med GitHub med værktøjerne Automa
 - Naviger til **Version control interface** - **Compare** og tilgå **<Add new..**
 - Skriv navn - eksempelvis AC Tool 
 - Indsæt stien til Automation Compare Tool - eksempelvis *"C:\Program Files\Siemens Automation\SIMATIC Automation Compare Tool\ACTool.exe"*
-
+- Klik **Add** og luk **Setting**
+- Opsæt Hardware eller importer Archive https://github.com/MigaUCN/TIA17_Auta-csd-s22/blob/main/UCN%20s7-1214cAC_DC_RLY.zap17
 
 ## Links
 **SIMATIC Automation Compare Tool** https://support.industry.siemens.com/cs/document/109797235/simatic-automation-compare-tool-?dti=0&lc=en-DO
