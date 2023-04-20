@@ -12,3 +12,10 @@ Anvender https://desktop.github.com/, til at opsætte repository, mens alt commi
 ### Youtube videor 
 Vejledning fra Outlier Automation omkring opsætning https://youtu.be/gmTNIA9MhJk
 
+## Hardware
+- CPU 1214C AC/DC/Rly
+- AQ 1x12BIT_1
+- SM 1223 DI8/DQ8 x relay
+- SM 1232 AQ2
+
+![image](https://user-images.githubusercontent.com/92428909/233323725-0341fcad-ec37-47c5-8095-35186225ec1b.png)
