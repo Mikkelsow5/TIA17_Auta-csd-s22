@@ -1,6 +1,14 @@
 # TIA17_Auta-csd-s22
 Vejledning til opsætning af versionsstyring med GitHub med værktøjerne Automation Compare Tool (ACT) og Version Control Interface (VCI)
 
+## Opsætning
+- Hent og installer Automation Compare Tool - denne vejledning anvender 109797235_Automation_Compare_Tool_1_0
+- Åben TIA Portal v17 og gå til **Options** - **Settings**
+- Naviger til **Version control interface** - **Compare** og tilgå **<Add new..**
+- Skriv navn - eksempelvis AC Tool 
+- Indsæt stien til Automation Compare Tool - eksempelvis * * "C:\Program Files\Siemens Automation\SIMATIC Automation Compare Tool\ACTool.exe"* *
+
+
 ## Links
 **SIMATIC Automation Compare Tool** https://support.industry.siemens.com/cs/document/109797235/simatic-automation-compare-tool-?dti=0&lc=en-DO
 
