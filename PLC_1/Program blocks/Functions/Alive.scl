@@ -1,12 +1,22 @@
 ﻿FUNCTION "Alive" : Void
+TITLE = Alive function
 { S7_Optimized_Access := 'TRUE' }
-VERSION : 0.1
+AUTHOR : MIGA
+FAMILY : UCN
+VERSION : 0.4
+//This is a comment to the function
    VAR_IN_OUT 
       aliveInt : UDInt;
    END_VAR
 
 
 BEGIN
+	(*
+	This is a comment
+	*)
 	#aliveInt := #aliveInt + 1;
+	IF #aliveInt > 1000 THEN
+	    #aliveInt := 0;
+	END_IF;
 END_FUNCTION
 
