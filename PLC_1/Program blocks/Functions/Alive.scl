@@ -13,6 +13,8 @@ VERSION : 0.4
 BEGIN
 	(*
 	This is a comment
+	This FC is now also a type in libraries
+	This FC is not not a type
 	*)
 	#aliveInt := #aliveInt + 1;
 	IF #aliveInt > 1000 THEN
