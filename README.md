@@ -13,7 +13,7 @@ Anvender https://desktop.github.com/, til at opsætte repository, mens alt commi
 Vejledning fra Outlier Automation omkring opsætning https://youtu.be/gmTNIA9MhJk
 
 ## Hardware
-- CPU 1214C AC/DC/Rly
+- CPU 1214C AC/DC/Rly [firmware 4.4]
 - AQ 1x12BIT_1
 - SM 1223 DI8/DQ8 x relay
 - SM 1232 AQ2
