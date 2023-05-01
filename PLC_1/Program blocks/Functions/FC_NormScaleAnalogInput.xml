@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2023-04-20T11:32:47.2193584Z</Created>
+    <Created>2023-05-01T07:15:35.5872185Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -111,8 +111,11 @@
         <Component Name="AnalogInput" />
       </Symbol>
     </Access>
-    <Access Scope="LocalConstant" UId="23">
-      <Constant Name="UPPERINT" />
+    <Access Scope="LiteralConstant" UId="23">
+      <Constant>
+        <ConstantType>Int</ConstantType>
+        <ConstantValue>27648</ConstantValue>
+      </Constant>
     </Access>
     <Access Scope="LocalVariable" UId="24">
       <Symbol>
